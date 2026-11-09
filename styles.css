@@ -1,0 +1,174 @@
+/* ---------- Colors (estimated from the screenshot) ----------
+   Orange header:   #F5934B
+   Blue accent:     #1D93BB
+   Pattern teal:    #BFE8E3
+   Card cream:      #FDF9EE
+   Text dark:       #333333
+   Code orange-red: #E8553B
+   Code background: #FEF3E0
+   Code border:     #F6D9B0
+------------------------------------------------------------ */
+
+body {
+    margin: 0;
+    background-color: #BFE8E3;
+    background-image: url(images/pattern.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+    background-color: #F25C78;
+    border-bottom: 5px solid #F29F05;
+    padding: 40px 0;
+}
+
+.header-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.site-title {
+    margin: 0 0 15px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 52px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 8px 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #FFFFFF;
+    color: #F5934B;
+}
+
+/* ---------- Hero banner ---------- */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 590px;
+    border-bottom: 5px solid #F29F05;
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    letter-spacing: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* ---------- Page content ---------- */
+
+.page-content {
+    width: 825px;
+    margin: 0 auto;
+    padding: 50px 0 200px 0;
+}
+
+.card {
+    padding: 50px;
+    background-color: #FDF9EE;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 44px;
+    font-weight: normal;
+    color: #5005F2;
+}
+
+.card-subtitle {
+    margin: 0 0 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F6D9B0;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E8553B;
+}
+
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 25px 0;
+}
+
+.card-text {
+    margin: 0 0 25px 0;
+    line-height: 38px;
+}
+
+.code-tag {
+    padding: 3px 8px;
+    border: 1px solid #F6D9B0;
+    border-radius: 3px;
+    background-color: #FEF3E0;
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    color: #E8553B;
+}
+
+.text-link {
+    color: #1D93BB;
+    text-decoration: none;
+    border-bottom: 2px dotted #1D93BB;
+}
+
+/* ---------- Callout box ---------- */
+
+.callout {
+    margin-top: 37px;
+    padding: 40px 50px;
+    border-left: 8px solid #F5934B;
+    background-color: #F2C849;
+    color: #FFFFFF;
+}
+
+.callout-title {
+    margin: 0 0 15px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.callout-text {
+    margin: 0;
+    line-height: 38px;
+}
